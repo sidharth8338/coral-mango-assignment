@@ -1,0 +1,29 @@
+.navbar {
+  position: fixed;
+  background-color: black;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.navbar li {
+  float: left;
+  list-style: none;
+  margin: 0px 20px;
+}
+
+.navbar ul {
+  overflow: auto;
+}
+.navbar li a {
+  padding: 3px 3px;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbar .li-active {
+  border-bottom: 1px solid red;
+}
